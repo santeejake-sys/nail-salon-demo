@@ -439,25 +439,23 @@ a{ color:inherit; text-decoration:none; }
 
 /* Gallery images – ALL NAILS (verified) */
 .shot--a{
-  background-image: url("https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("https://images.unsplash.com/photo-1680540441735-2cdc020037c8?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
 .shot--b{
-  background-image: url("https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80");
+  background-image: url("https://images.unsplash.com/photo-1746607242420-12fc2604775d?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
 .shot--c{
-  background-image: url("https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=800&q=80");
+  background-image: url("https://images.unsplash.com/photo-1688583417757-9060cba25399?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
 .shot--d{
-  background-image: url("https://images.unsplash.com/photo-1600423115367-87ea7661688f?auto=format&fit=crop&w=800&q=80");
+  background-image: url("https://images.unsplash.com/photo-1672405313394-93dff75eae32?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
 .shot--e{
-  background-image: url("https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?auto=format&fit=crop&w=800&q=80");
+  background-image: url("https://images.unsplash.com/photo-1597999709389-e29dc41e218a?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
 .shot--f{
-  background-image: url("https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=1400&q=80");
+  background-image: url("https://images.unsplash.com/photo-1630843599725-32ead7671867?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=2000");
 }
-
-
 
 .shot figcaption{
   position:absolute; left: 12px; bottom: 12px;
