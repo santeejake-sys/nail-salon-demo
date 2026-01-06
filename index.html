@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="A luxury nail studio demo website — services, pricing, gallery, and booking." />
+  <title>Luxe Nail Studio — Demo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Elegant font pairing -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Top Notice -->
+  <div class="notice">
+    <div class="container notice__inner">
+      <span class="pill">Demo Website</span>
+      <span class="notice__text">Replace name, photos, pricing, and links for each client.</span>
+      <a class="notice__link" href="#contact">Request a quote</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand__mark" aria-hidden="true">✦</span>
+        <span class="brand__text">
+          <span class="brand__name">Luxe</span>
+          <span class="brand__sub">Nail Studio</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleLine"></span>
+          <span class="nav__toggleLine"></span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact" class="btn btn--small">Book</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Luxury care • Clean finish • Lasting results</p>
+          <h1 class="hero__title">
+            Premium nails, elevated experience.
+          </h1>
+          <p class="hero__subtitle">
+            A modern studio vibe with meticulous detail. This is a demo site you can customize for any salon.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contact">Book an appointment</a>
+            <a class="btn btn--ghost" href="#gallery">View gallery</a>
+          </div>
+
+          <div class="hero__stats" role="list">
+            <div class="stat" role="listitem">
+              <div class="stat__num">4.9</div>
+              <div class="stat__label">Avg rating</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat__num">45–75</div>
+              <div class="stat__label">Min sessions</div>
+            </div>
+            <div class="stat" role="listitem">
+              <div class="stat__num">100%</div>
+              <div class="stat__label">Sanitized tools</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card" aria-label="Featured card">
+          <div class="hero__cardTop">
+            <div>
+              <p class="hero__cardTitle">Signature Set</p>
+              <p class="hero__cardDesc">Clean cuticles • structured gel • glossy top coat</p>
+            </div>
+            <span class="chip">Most booked</span>
+          </div>
+
+          <!-- Image grid using gradient “photo placeholders” (swap with real images later) -->
+          <div class="mosaic">
+            <div class="mosaic__tile tile1"></div>
+            <div class="mosaic__tile tile2"></div>
+            <div class="mosaic__tile tile3"></div>
+            <div class="mosaic__tile tile4"></div>
+          </div>
+
+          <div class="hero__cardBottom">
+            <div class="meta">
+              <span class="meta__dot" aria-hidden="true"></span>
+              <span>Same-week appointments</span>
+            </div>
+            <a class="link" href="#pricing">See pricing →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__blur hero__blur--a" aria-hidden="true"></div>
+      <div class="hero__blur hero__blur--b" aria-hidden="true"></div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="strip">
+      <div class="container strip__inner">
+        <div class="strip__item">✨ Gel • Acrylic • Builder</div>
+        <div class="strip__dot" aria-hidden="true"></div>
+        <div class="strip__item">🧼 Sanitation-first studio</div>
+        <div class="strip__dot" aria-hidden="true"></div>
+        <div class="strip__item">💎 Premium finishes</div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2>Services</h2>
+          <p>Elegant, consistent results — with options that fit every style.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">✧</div>
+            <h3>Gel Manicure</h3>
+            <p>Long-lasting, glossy finish with a clean, natural look.</p>
+            <ul class="card__list">
+              <li>Cuticle care + shaping</li>
+              <li>Premium gel polish</li>
+              <li>High-shine top coat</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">❖</div>
+            <h3>Structured Builder</h3>
+            <p>Strength + durability for clients who want extra hold.</p>
+            <ul class="card__list">
+              <li>Builder overlay</li>
+              <li>Refill-friendly</li>
+              <li>Perfect apex shaping</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">✦</div>
+            <h3>Acrylic Extensions</h3>
+            <p>Classic length & shape customization with full design options.</p>
+            <ul class="card__list">
+              <li>Short to extra long</li>
+              <li>Custom shapes</li>
+              <li>Design add-ons</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <h2>Pricing</h2>
+          <p>Clear, flexible pricing. Add-ons allow quick customization.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="priceCard">
+            <div class="priceCard__top">
+              <h3>Essential</h3>
+              <p>Best for clean, minimal sets.</p>
+            </div>
+            <div class="priceCard__price">
+              <span class="priceCard__num">$45</span>
+              <span class="priceCard__unit">/ session</span>
+            </div>
+            <ul class="priceCard__list">
+              <li>Classic manicure</li>
+              <li>Single-color polish</li>
+              <li>Hydrating finish</li>
+            </ul>
+            <a class="btn btn--full" href="#contact">Book Essential</a>
+          </div>
+
+          <div class="priceCard priceCard--featured">
+            <div class="priceCard__badge">Most popular</div>
+            <div class="priceCard__top">
+              <h3>Signature</h3>
+              <p>Structured + photo-ready shine.</p>
+            </div>
+            <div class="priceCard__price">
+              <span class="priceCard__num">$70</span>
+              <span class="priceCard__unit">/ session</span>
+            </div>
+            <ul class="priceCard__list">
+              <li>Gel or builder overlay</li>
+              <li>Precision shaping</li>
+              <li>Gloss seal + cuticle oil</li>
+            </ul>
+            <a class="btn btn--full" href="#contact">Book Signature</a>
+          </div>
+
+          <div class="priceCard">
+            <div class="priceCard__top">
+              <h3>Deluxe</h3>
+              <p>Design-forward sets & extras.</p>
+            </div>
+            <div class="priceCard__price">
+              <span class="priceCard__num">$95</span>
+              <span class="priceCard__unit">/ session</span>
+            </div>
+            <ul class="priceCard__list">
+              <li>Extensions or full design</li>
+              <li>Chrome / art add-ons</li>
+              <li>Aftercare kit option</li>
+            </ul>
+            <a class="btn btn--full" href="#contact">Book Deluxe</a>
+          </div>
+        </div>
+
+        <div class="addons">
+          <h4>Add-ons</h4>
+          <div class="addons__grid">
+            <div class="addon"><span>French tips</span><span>+$10</span></div>
+            <div class="addon"><span>Chrome finish</span><span>+$15</span></div>
+            <div class="addon"><span>Simple nail art</span><span>+$10–25</span></div>
+            <div class="addon"><span>Soak-off removal</span><span>+$10</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <h2>Gallery</h2>
+          <p>Swap these placeholders with client photos (JPG/PNG) later.</p>
+        </div>
+
+        <div class="gallery" aria-label="Gallery grid">
+          <figure class="shot shot--a"><figcaption>Glossy neutrals</figcaption></figure>
+          <figure class="shot shot--b"><figcaption>Soft pink</figcaption></figure>
+          <figure class="shot shot--c"><figcaption>Chrome detail</figcaption></figure>
+          <figure class="shot shot--d"><figcaption>French tips</figcaption></figure>
+          <figure class="shot shot--e"><figcaption>Mocha tones</figcaption></figure>
+          <figure class="shot shot--f"><figcaption>Art accents</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <h2>Client love</h2>
+          <p>Short reviews build trust fast. Replace names for each demo.</p>
+        </div>
+
+        <div class="quotes">
+          <article class="quote">
+            <p>“Best shape I’ve ever had — clean, even, and the shine lasted weeks.”</p>
+            <div class="quote__meta">
+              <span class="avatar">A</span>
+              <span>Aria • Gel manicure</span>
+            </div>
+          </article>
+          <article class="quote">
+            <p>“Super professional and the studio felt really high-end.”</p>
+            <div class="quote__meta">
+              <span class="avatar">M</span>
+              <span>Maya • Builder set</span>
+            </div>
+          </article>
+          <article class="quote">
+            <p>“The details were insane. My nails looked like a Pinterest board.”</p>
+            <div class="quote__meta">
+              <span class="avatar">K</span>
+              <span>Kai • Deluxe design</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Booking -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Booking</h2>
+          <p>Send details and we’ll confirm your time. (Demo form)</p>
+        </div>
+
+        <div class="contact">
+          <form class="form" id="bookingForm">
+            <div class="form__row">
+              <label>
+                Full name
+                <input type="text" name="name" placeholder="Jane Doe" required />
+              </label>
+              <label>
+                Phone or email
+                <input type="text" name="contact" placeholder="(555) 555-5555 or email" required />
+              </label>
+            </div>
+
+            <div class="form__row">
+              <label>
+                Service
+                <select name="service" required>
+                  <option value="" selected disabled>Select a service</option>
+                  <option>Essential</option>
+                  <option>Signature</option>
+                  <option>Deluxe</option>
+                  <option>Gel Manicure</option>
+                  <option>Structured Builder</option>
+                  <option>Acrylic Extensions</option>
+                </select>
+              </label>
+
+              <label>
+                Preferred date
+                <input type="date" name="date" required />
+              </label>
+            </div>
+
+            <label>
+              Notes (shape, length, inspiration)
+              <textarea name="notes" rows="4" placeholder="Almond, medium length, neutral with chrome…"></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button class="btn" type="submit">Send booking request</button>
+              <p class="form__fineprint">
+                This demo uses a “mailto” fallback and on-page confirmation — no backend needed.
+              </p>
+            </div>
+          </form>
+
+          <aside class="side">
+            <div class="side__card">
+              <h3>Studio details</h3>
+              <p class="side__muted">Replace with real salon info.</p>
+
+              <div class="side__item">
+                <span class="side__label">Hours</span>
+                <span class="side__value">Mon–Sat • 10am–6pm</span>
+              </div>
+              <div class="side__item">
+                <span class="side__label">Location</span>
+                <span class="side__value">Downtown • Your City</span>
+              </div>
+              <div class="side__item">
+                <span class="side__label">Contact</span>
+                <span class="side__value">hello@luxenails.demo</span>
+              </div>
+
+              <a class="btn btn--ghost btn--full" href="#pricing">View pricing</a>
+            </div>
+
+            <div class="side__card side__card--map">
+              <h3>Map (optional)</h3>
+              <p class="side__muted">Paste a Google Maps embed link here for the real salon.</p>
+              <div class="mapPlaceholder" aria-hidden="true">
+                <span>Map Embed Placeholder</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__left">
+        <div class="brand brand--footer">
+          <span class="brand__mark" aria-hidden="true">✦</span>
+          <span class="brand__text">
+            <span class="brand__name">Luxe</span>
+            <span class="brand__sub">Nail Studio</span>
+          </span>
+        </div>
+        <p class="footer__muted">
+          Demo site for client presentations. Built as a clean, fast GitHub Pages project.
+        </p>
+      </div>
+
+      <div class="footer__right">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Booking</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Luxe Nail Studio • Demo</span>
+      <span class="footer__muted">Made for GitHub Pages</span>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
